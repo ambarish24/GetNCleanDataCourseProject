@@ -54,5 +54,5 @@ meltData      = melt(allData, id = idLabels, measure.vars = dataLabels)
 # Applying mean function to dataset using dcast function
 tidyData   = dcast(meltData, subject + activityLabel ~ variable, mean)
 
-write.table(tidyData, file = "tidyData.txt")
+write.table(tidyData, file = "tidyData.txt", row.name=FALSE)
 }
