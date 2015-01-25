@@ -32,4 +32,4 @@ Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Huma
 	6.1 source("run_analysis.r")
 	6.2 generateTidyData()
 
-### For details about variables in the dataset refer to codebook.md file
+For details about variables in the dataset refer to codebook.md file
