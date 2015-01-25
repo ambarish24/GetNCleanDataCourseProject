@@ -30,6 +30,6 @@ Original description of the dataset: http://archive.ics.uci.edu/ml/datasets/Huma
 
 6.Enter the following commands in R to create tidy dataset in a text file(tidyData.txt) in 'UCI HAR Dataset' folder,
 	6.1 source("run_analysis.r")
-	6.2 generateTidyData
+	6.2 generateTidyData()
 
 ### For details about variables in the dataset refer to codebook.md file
