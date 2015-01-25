@@ -57,8 +57,4 @@ meltData   = melt(allData, id = idLabels, measure.vars = dataLabels)
 tidyData   = dcast(meltData, subject + activityLabel ~ variable, mean)
 
 write.table(tidyData, file = "tidyData.txt", row.name=FALSE)
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> origin/master
